@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="">
+    <div><h2 class="">Filtre sua pesquisa:</h2></div>
+    <div class="total">
+        <div class="bloco">
+            <div class="sec">
+                <label class="" for="selectCurrency1">Quero converter:</label>
+                <div class="">
+                    <input type="number" id="currencyValue" class="form-control" required />
+                </div>
+            </div>
+            <div class="sec">
+                <label class="" for="selectCurrency1">De:</label>
+                <div class="">
+                    <select class="form-control" id="selectCurrency1"></select>
+                </div>
+            </div>
+            <div class="switch">
+                <label></label>
+                <a onclick="switchCurrency();"><img src="~/images/double-arrow.png"></a>
+            </div>
+            <div class="sec">
+                <label class="col-sm-2 col-form-label" for="selectCurrency2">Para:</label>
+
+                <select class="form-control" id="selectCurrency2"></select>
+            </div>
+        </div>
+        <textarea id="convertResult" class="form-control" value="" type="text" placeholder="Resultado.." readonly> </textarea>
+    </div>
+
+</div>
+
+<style>
+
+    .total {
+        width: 700px;
+    }
+
+    .bloco {
+        display: flex;
+        border: 1px solid black;
+    }
+
+        .bloco label {
+        }
+
+        .bloco select {
+            width: 100%;
+        }
+
+        .bloco input {
+            width: 100%;
+        }
+
+        .bloco .sec {
+            margin: 1px;
+            flex: 1;
+        }
+
+        .bloco .switch a {
+            text-decoration-style: none;
+            border: none;
+            background-color: white;
+        }
+
+        .bloco .switch img {
+            margin-top: 25px;
+            width: auto;
+            height: 34px;
+        }
+</style>
+<button onclick="calculate()">Enviar</button>
+
+
+
+@section Scripts {
+    <script src="~/js/Currency.js" ~></script>
+}
