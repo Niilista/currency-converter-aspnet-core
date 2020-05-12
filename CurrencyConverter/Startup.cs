@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 
 namespace CurrencyConverter
 {
@@ -47,6 +49,13 @@ namespace CurrencyConverter
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            //app.UseStaticFiles(new StaticFileOptions()
+            //{
+            //    FileProvider = new PhysicalFileProvider(
+            //  Path.Combine(Directory.GetCurrentDirectory(), @"Libs")),
+            //    RequestPath = new PathString("../libs")
+            //});
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

@@ -23,6 +23,53 @@ body {
     width: 100%;
 }
 
+
+.total {
+    width: 700px;
+}
+
+.bloco {
+    display: flex;
+}
+
+.gray #exactlyResult {
+    color: #757575;
+}
+
+.bloco label {
+}
+
+.bloco select {
+    width: 100%;
+}
+
+.bloco input {
+    width: 100%;
+}
+
+.bloco .sec {
+    margin: 1px;
+    flex: 1;
+}
+
+.bloco .switch a {
+    text-decoration-style: none;
+    border: none;
+    background-color: white;
+}
+
+.bloco .switch img {
+    margin-top: 25px;
+    width: auto;
+    height: 34px;
+}
+
+.centralize {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* QR code generator */
 #qrCode {
     margin: 15px;
@@ -35,3 +82,4 @@ body {
         display: none;
     }
 }
+

@@ -17,10 +17,7 @@ C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.TagHelpers.input.cache
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.TagHelpers.output.cache
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.RazorCoreGenerate.cache
-C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs

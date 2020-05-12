@@ -4,7 +4,7 @@
 }
 
 <div class="">
-    <div><h2 class="">Filtre sua pesquisa:</h2></div>
+    <div><h2 class="">Conversor de Moedas</h2></div>
     <div class="total">
         <div class="bloco">
             <div class="sec">
@@ -29,7 +29,12 @@
                 <select class="form-control" id="selectCurrency2"></select>
             </div>
         </div>
-        <textarea id="convertResult" class="form-control" value="" type="text" placeholder="Resultado.." readonly> </textarea>
+        <div class="total centralize">
+            <h1 id="convertResult">= </h1>
+        </div>
+        <div class="total gray centralize">
+            <h5 id="exactlyResult">Exactly = </h5>
+        </div>
     </div>
 
 </div>
@@ -42,36 +47,46 @@
 
     .bloco {
         display: flex;
-        border: 1px solid black;
     }
 
-        .bloco label {
-        }
+    .gray #exactlyResult{
+        
+        color: #757575;
+    }
 
-        .bloco select {
-            width: 100%;
-        }
+    .bloco label {
+    }
 
-        .bloco input {
-            width: 100%;
-        }
+    .bloco select {
+        width: 100%;
+    }
 
-        .bloco .sec {
-            margin: 1px;
-            flex: 1;
-        }
+    .bloco input {
+        width: 100%;
+    }
 
-        .bloco .switch a {
-            text-decoration-style: none;
-            border: none;
-            background-color: white;
-        }
+    .bloco .sec {
+        margin: 1px;
+        flex: 1;
+    }
 
-        .bloco .switch img {
-            margin-top: 25px;
-            width: auto;
-            height: 34px;
-        }
+    .bloco .switch a {
+        text-decoration-style: none;
+        border: none;
+        background-color: white;
+    }
+
+    .bloco .switch img {
+        margin-top: 25px;
+        width: auto;
+        height: 34px;
+    }
+
+    .centralize {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 </style>
 <button onclick="calculate()">Enviar</button>
 

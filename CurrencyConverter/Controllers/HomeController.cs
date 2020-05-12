@@ -5,13 +5,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CurrencyConverter.Models;
+using System.Globalization;
 
 namespace CurrencyConverter.Controllers
 {
-    public class HomeController : Controller
-    {
+    public class HomeController : Controller { 
+
         public IActionResult Index()
-        {
+        { 
+
             return View();
         }
 
@@ -19,18 +21,6 @@ namespace CurrencyConverter.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 

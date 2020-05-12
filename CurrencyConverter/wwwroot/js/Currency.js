@@ -3,6 +3,7 @@ var selectCurrency1 = document.getElementById("selectCurrency1");
 var selectCurrency2 = document.getElementById("selectCurrency2");
 var currencyValue = document.getElementById("currencyValue");
 var convertResult = document.getElementById("convertResult");
+var exactlyResult = document.getElementById("exactlyResult");
 var currencyA;
 var currencyB;
 var transationValue;
@@ -31,8 +32,10 @@ async function requestCurrencyData(base, rate, value) {
         dataType: "json"
     }).then(function (data) {
         var jsonPack = data;
-
-        convertResult.value = (value * jsonPack.rates[rate]);
+        var result = parseFloat(value) * parseFloat(jsonPack.rates[rate]);
+        Cresult = result.toFixed(2);
+        convertResult.innerText = ("= " + Cresult);
+        exactlyResult.innerText = ("Exactly = " + result);
     });
 }
 
