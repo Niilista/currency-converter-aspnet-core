@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 
+
 namespace CurrencyConverter
 {
     public class Startup
@@ -49,13 +50,6 @@ namespace CurrencyConverter
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
-            //app.UseStaticFiles(new StaticFileOptions()
-            //{
-            //    FileProvider = new PhysicalFileProvider(
-            //  Path.Combine(Directory.GetCurrentDirectory(), @"Libs")),
-            //    RequestPath = new PathString("../libs")
-            //});
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

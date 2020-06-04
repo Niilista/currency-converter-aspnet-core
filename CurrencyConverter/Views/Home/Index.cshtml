@@ -10,7 +10,7 @@
             <div class="sec">
                 <label class="" for="selectCurrency1">Quero converter:</label>
                 <div class="">
-                    <input type="number" id="currencyValue" class="form-control" required />
+                    <input type="number" id="currencyValue" value="0" class="form-control" required />
                 </div>
             </div>
             <div class="sec">
@@ -39,59 +39,11 @@
 
 </div>
 
-<style>
+<button class="btn btn-primary" onclick="calculate()">Enviar</button>
 
-    .total {
-        width: 700px;
-    }
-
-    .bloco {
-        display: flex;
-    }
-
-    .gray #exactlyResult{
-        
-        color: #757575;
-    }
-
-    .bloco label {
-    }
-
-    .bloco select {
-        width: 100%;
-    }
-
-    .bloco input {
-        width: 100%;
-    }
-
-    .bloco .sec {
-        margin: 1px;
-        flex: 1;
-    }
-
-    .bloco .switch a {
-        text-decoration-style: none;
-        border: none;
-        background-color: white;
-    }
-
-    .bloco .switch img {
-        margin-top: 25px;
-        width: auto;
-        height: 34px;
-    }
-
-    .centralize {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-</style>
-<button onclick="calculate()">Enviar</button>
-
-
+<div id="container1"></div>
 
 @section Scripts {
     <script src="~/js/Currency.js" ~></script>
+    <script src="~/lib/highcharts/highcharts.js"></script>
 }

@@ -9,10 +9,16 @@ using System.Globalization;
 
 namespace CurrencyConverter.Controllers
 {
-    public class HomeController : Controller { 
+    public class HomeController : Controller {
 
         public IActionResult Index()
-        { 
+        {
+
+            return View();
+        }
+
+        public IActionResult High()
+        {
 
             return View();
         }

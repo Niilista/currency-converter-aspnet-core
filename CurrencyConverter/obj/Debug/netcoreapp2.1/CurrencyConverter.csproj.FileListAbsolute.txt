@@ -9,7 +9,6 @@ C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\netcoreapp2.1\CurrencyConverter.Views.dll
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\netcoreapp2.1\CurrencyConverter.Views.pdb
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.csprojAssemblyReference.cache
-C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.csproj.CoreCompileInputs.cache
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.RazorAssemblyInfo.cache
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.RazorAssemblyInfo.cs
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.AssemblyInfoInputs.cache
@@ -31,3 +30,5 @@ C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.pdb
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.genruntimeconfig.cache
 C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.csproj.CopyComplete
+C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\CurrencyConverter.csproj.CoreCompileInputs.cache
+C:\Users\Victor Hugo\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\netcoreapp2.1\Razor\Views\Home\High.cshtml.g.cs
